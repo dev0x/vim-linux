@@ -26,8 +26,12 @@ set t_ti= t_te=
 "yay colors! yay!
 "set background=dark
 "colorscheme solarized
-"let g:solarized_termcolors=256
+let g:solarized_termcolors=256
 
+set t_Co=256
+set fillchars=stl:\ ,stlnc:\ " Caution: trailing space
+highlight clear SignColumn
+highlight VertSplit cterm=none
 
 "arrow keys are for mouthbreathers
 map <up> <nop>
@@ -39,8 +43,12 @@ map <right> <nop>
 
 "toggle mode for pasting mapped to f6
 set pastetoggle=<F6>
-"let g:Powerline_symbols = 'fancy'
+"powerline shtuff
+let g:Powerline_symbols = 'fancy'
+let g:Powerline_theme='short'
+let g:Powerline_colorscheme='solarized256'
 
+	    
 
 map <F1> <C-w>w
 nmap :NT :NERDTree

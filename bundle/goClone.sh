@@ -6,5 +6,5 @@ git clone https://github.com/jistr/vim-nerdtree-tabs.git;
 git clone https://github.com/scrooloose/syntastic.git;
 git clone git://github.com/altercation/vim-colors-solarized.git;
 git clone git://github.com/airblade/vim-gitgutter.git; 
-git clone git://github.com/Lokaltog/vim-powerline.git; 
+git clone git://github.com/Lokaltog/powerline.git; 
 git clone git://github.com/stephenmckinney/vim-solarized-powerline.git

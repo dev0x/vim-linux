@@ -23,8 +23,8 @@ set showcmd
 set t_ti= t_te= 
 
 "yay colors! yay!
-"set background=dark
-"colorscheme solarized
+set background=dark
+colorscheme solarized
 let g:solarized_termcolors=256
 
 set t_Co=256
@@ -51,3 +51,6 @@ let g:Powerline_colorscheme='solarized256'
 map <F1> <C-w>w
 nmap :NT :NERDTree
 nmap <silent> <F8> :NERDTreeToggle<CR>
+nmap <silent> <F4> :set invrnu<CR>
+
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim

@@ -42,9 +42,10 @@ map <right> <nop>
 "toggle mode for pasting mapped to f6
 set pastetoggle=<F6>
 "powerline shtuff
-let g:Powerline_symbols = 'fancy'
-let g:Powerline_theme='short'
-let g:Powerline_colorscheme='solarized256'
+"let g:Powerline_symbols = 'fancy'
+"let g:Powerline_theme='short'
+"let g:Powerline_colorscheme='solarized256'
+let g:airline_powerline_fonts = 1
 
 	    
 "Cartography aka maps!

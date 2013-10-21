@@ -29,9 +29,9 @@ colorscheme solarized
 let g:solarized_visibility="high"
 let g:solarized_termcolors=256
 
-"set t_Co=256
+set t_Co=256
 "set fillchars=stl:\ ,stlnc:\ " Caution: trailing space
-highlight clear SignColumn  "clear colors for the git gutter
+"highlight clear SignColumn  "clear colors for the git gutter
 highlight VertSplit cterm=none "remove background color on the vert split and reset back to |
 
 "arrow keys are for mouthbreathers
@@ -52,5 +52,3 @@ map <F1> <C-w>w
 nmap :NT :NERDTree
 nmap <silent> <F8> :NERDTreeToggle<CR>
 nmap <silent> <F4> :set invrnu<CR>
-
-"set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim

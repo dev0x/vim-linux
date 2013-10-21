@@ -12,6 +12,7 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set nosmarttab
+set expandtab
 
 "encoding - can't live with it, can't live without it
 set encoding=utf-8
@@ -28,7 +29,7 @@ colorscheme solarized
 let g:solarized_visibility="high"
 let g:solarized_termcolors=256
 
-set t_Co=256
+"set t_Co=256
 "set fillchars=stl:\ ,stlnc:\ " Caution: trailing space
 highlight clear SignColumn  "clear colors for the git gutter
 highlight VertSplit cterm=none "remove background color on the vert split and reset back to |
@@ -42,10 +43,7 @@ map <right> <nop>
 
 "toggle mode for pasting mapped to f6
 set pastetoggle=<F6>
-"powerline shtuff
-"let g:Powerline_symbols = 'fancy'
-"let g:Powerline_theme='short'
-"let g:Powerline_colorscheme='solarized256'
+set ttyfast 
 let g:airline_powerline_fonts = 1
 
 	    

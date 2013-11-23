@@ -25,9 +25,10 @@ set t_ti= t_te=
 
 "yay colors! yay!
 set background=dark
-colorscheme solarized 
-let g:solarized_visibility="high"
-let g:solarized_termcolors=256
+"colorscheme distinguished
+colorscheme flatcolor
+"let g:solarized_visibility="high"
+"let g:solarized_termcolors=256
 
 set t_Co=256
 "set fillchars=stl:\ ,stlnc:\ " Caution: trailing space

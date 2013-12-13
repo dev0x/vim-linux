@@ -6,4 +6,5 @@ git clone https://github.com/jistr/vim-nerdtree-tabs.git;
 git clone https://github.com/scrooloose/syntastic.git;
 git clone git://github.com/altercation/vim-colors-solarized.git;
 git clone git://github.com/airblade/vim-gitgutter.git;
+git clone https://github.com/jelera/vim-javascript-syntax.git;
 git clone https://github.com/bling/vim-airline.git
